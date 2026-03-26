@@ -25,7 +25,9 @@ This project utilizes a local pipeline to ensure privacy and performance:
    ```
 2. **Install Dependencies:**
    ```bash
-    pip install -r requirements.txt
+   python -m venv venv
+   call venv\Scripts\activate
+   pip install -r requirements.txt
    ```
 3. **Download Model:**
    - Download Rhubarb Lip Sync v1.14 (Windows/Mac/Linux) from [here](https://github.com/DanielSWolf/rhubarb-lip-sync/releases) 
